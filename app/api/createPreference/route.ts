@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest } from 'next/server';
 import mercadopago from 'mercadopago';
 
 export async function POST(request: NextRequest) {
@@ -20,14 +20,11 @@ export async function POST(request: NextRequest) {
     return new Response(JSON.stringify({ id: preference.body.id }), {
         status: 200
     })
-    //NextResponse.json({ id: preference.body.id });
 
   } catch (error) {
     console.error('Error creating preference: ', error);
     return new Response(JSON.stringify({ error: 'Error creating preference' }), {
         status: 500
     })
-    
-    //NextResponse.json({ error: 'Error creating preference' }).status(500);
   }
 }

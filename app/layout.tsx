@@ -9,9 +9,9 @@ const inter = Inter({ subsets: ['latin'] });
 
 let title = 'QRapidoAI - Generador de codigo QR';
 let description = 'Genera tu codigo QR con IA en segundos';
-let url = 'https://www.qrgpt.io';
-let ogimage = 'https://www.qrgpt.io/og-image.png';
-let sitename = 'QRapidoAI.io';
+let url = 'https://www.qr.siliconmind.ai';
+let ogimage = 'https://www.qr.siliconmind.ai/og-image.png';
+let sitename = 'qr.siliconmind.ai';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
