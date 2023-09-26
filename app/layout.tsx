@@ -7,11 +7,11 @@ import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] });
 
-let title = 'QrGPT - QR Code Generator';
-let description = 'Generate your AI QR Code in seconds';
+let title = 'QRapidoAI - Generador de codigo QR';
+let description = 'Genera tu codigo QR con IA en segundos';
 let url = 'https://www.qrgpt.io';
 let ogimage = 'https://www.qrgpt.io/og-image.png';
-let sitename = 'qrGPT.io';
+let sitename = 'QRapidoAI.io';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),

@@ -4,6 +4,7 @@ const nextConfig = {
     domains: [
       'pbxt.replicate.delivery',
       'g4yqcv8qdhf169fk.public.blob.vercel-storage.com',
+      '8afsbusgp5hhsklg.public.blob.vercel-storage.com',
     ],
   },
 };

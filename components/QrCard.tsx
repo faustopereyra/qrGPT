@@ -24,7 +24,7 @@ export const QrCard: React.FC<QrCardProps> = ({ imageURL, time }) => {
         height={480}
       />
       <p className="text-gray-400 text-sm italic">
-        QR code took {time} seconds to generate.
+        El codigo QR tardo {time} segundos para generarse.
       </p>
     </div>
   );
