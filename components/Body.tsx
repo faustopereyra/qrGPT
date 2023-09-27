@@ -252,7 +252,7 @@ const Body = ({
                       variant="outline"
                       onClick={() => {
                         navigator.clipboard.writeText(
-                          `http://localhost:3000/start/${id || ''}`,
+                          `https://qr.siliconmind.ai/start/${id || ''}`,
                         );
                         toast.success('Link copiado en el clipboard');
                       }}

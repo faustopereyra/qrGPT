@@ -43,7 +43,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link href="/" className="flex items-center gap-3">
               <Image src="/box.svg" alt="logo" width={30} height={30} />
-              <div className="font-bold text-lg">QrGPT</div>
+              <div className="font-bold text-lg">QRapidoAI</div>
             </Link>
             <div className="md:hidden">
               <button
@@ -52,7 +52,7 @@ const Navbar = () => {
                 className="text-gray-500 hover:text-gray-800"
                 onClick={handleNavMenu}
               >
-                {state ? (
+                {true ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-6 w-6"
