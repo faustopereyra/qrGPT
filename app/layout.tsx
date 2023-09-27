@@ -7,7 +7,7 @@ import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] });
 
-let title = 'QRapidoAI - Generador de codigo QR';
+let title = 'QRcreative - Generador de codigo QR';
 let description = 'Genera tu codigo QR con IA en segundos';
 let url = 'https://www.qr.siliconmind.ai';
 let ogimage = 'https://www.qr.siliconmind.ai/og-image.png';

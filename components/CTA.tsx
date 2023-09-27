@@ -10,7 +10,7 @@ const CTA = () => {
     fetch('/api/createPreference', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ items: [{ title: 'qr generator', unit_price: 1000, quantity: 1 }] }),
+      body: JSON.stringify({ items: [{ title: 'gracias UwU', unit_price: 1000, quantity: 1 }] }),
     })
     .then(response => response.json())
     .then(data => {
@@ -30,7 +30,7 @@ const CTA = () => {
           className="text-gray-800 text-3xl font-semibold sm:text-4xl"
           id="oss"
         >
-          QRapidoAI es completamente GRATIS
+          QRcreative es completamente GRATIS
         </h2>
         <p className="mt-3 text-gray-600">
           Ayudanos a seguir brindando mas apps como estas.

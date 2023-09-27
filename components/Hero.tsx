@@ -14,7 +14,7 @@ export default function Hero() {
           Genera tu Código QR con IA en segundos
           </h1>
           <p className="max-w-xl mx-auto">
-          QRapidoAI facilita que crees códigos QR con estilo impulsados por inteligencia artificial en solo segundos, completamente gratis.
+          QRcreative facilita que crees códigos QR con estilo impulsados por inteligencia artificial en solo segundos, completamente gratis.
           </p>
           <div className="flex items-center justify-center gap-x-3 font-medium text-sm">
             <NavLink

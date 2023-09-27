@@ -6,7 +6,7 @@ const Footer = () => (
         <p className="text-gray-600">
           Basado en{' '}
           <a
-            href="https://qrgpt.io/"
+            href="https://github.com/Nutlope/qrGPT"
             className="hover:underline transition"
           >
             qrgpt
